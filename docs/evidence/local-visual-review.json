@@ -1,26 +1,16 @@
 {
-  "date": "2026-10-20T08:32:11.110736+00:00",
+  "date": "2026-10-20T17:25:00Z",
   "result": "passed",
-  "local_gate_sha256": "2416a4b1a14da4dc5ab3859f79e5398056daf96c380a857a1b740a2483d35c0c",
-  "source_fingerprint": "edd03d1053aa69d7c3fa8a21e778a2176ec0d60a06de4e222e9d3a6ca004a16a",
-  "screenshots_reviewed": 176,
-  "widths": [
-    1440,
-    1280,
-    768,
-    390
-  ],
-  "method": "All 44 labeled contact sheets (176 source PNGs), including modal bottom actions, reviewed; TCP result additionally checked at source scale with desktop/mobile crops. Original PNG hashes retained.",
+  "local_gate_sha256": "c177f85a48534276f6f2a54f80190188073150e62582099786e03c4a6b99cec6",
+  "source_fingerprint": "4cc27654d9272b90009607f0fa698646a57672226a465f1bc715aa2549909d43",
+  "screenshots_reviewed": 18,
+  "widths": [1440, 1280, 768, 390],
+  "method": "Reviewed all 18 INIT setup screenshots: token, PostgreSQL, Redis and administrator at 1440/1280/768/390, plus the 390 PostgreSQL error and service-switch states. Password and email fields are masked. No overflow, clipped actions, or raw internal values.",
   "checks": [
-    "Create/edit auto/prepend switch sizing, cancel, source labels, error/retry and unsupported state",
-    "Complete pool order and manual order dialogs, move/cancel/submit/receipt/reload",
-    "Automatic all-supported selection and per-pool partial refresh result",
-    "TCP selection and typed observation, sampling/unknown distinctions",
-    "Public fixed catalog regions/search/pagination/type/probe/import confirm/cancel, failure retry and bottom close",
-    "Actual Snell/WireGuard import, format output, modern dual-stack Loon fields and unsupported targets"
+    "Token step explains setup-token, --init reload, and --setup without a second credential file",
+    "PostgreSQL defaults are gate/gate, SSL label is Chinese, and the error keeps both actions visible",
+    "Redis step shows ACL user migate and TLS switch",
+    "Administrator step and the switching state do not reveal secrets"
   ],
-  "followups": [
-    "Legacy protocol import failure still includes Error: prefix; nonblocking copy cleanup retained in B1 polish"
-  ],
-  "limits": "Dedicated real local control/PG/Redis; controlled signed receipts and catalog samples are separate from real Agent/network or commercial-client acceptance."
+  "limits": "Isolated local control, PG18 and Redis8. Production was already initialized, so this review is not a production first-install."
 }

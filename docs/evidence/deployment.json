@@ -1,69 +1,34 @@
 {
-  "date": "2026-10-20T10:14:36Z",
+  "date": "2026-10-20T17:36:13Z",
   "servers": {
     "control": {
       "current": {
-        "exit_code": 1,
-        "output": ""
+        "exit_code": 0,
+        "output": "releases/0.1.4"
       },
       "previous": {
-        "exit_code": 1,
-        "output": ""
+        "exit_code": 0,
+        "output": "releases/0.1.3"
       },
       "service": {
-        "exit_code": 4,
-        "output": "inactive"
-      },
-      "manifest": {
-        "exit_code": 0,
-        "output": "{\"role\": \"control\", \"version\": 1, \"current\": \"0.2.0-rc114\", \"previous\": \"0.2.0-rc113\"}"
-      },
-      "binary_sha256": {
-        "exit_code": 1,
-        "output": ""
-      },
-      "latest_backup_snapshots": {
-        "exit_code": 0,
-        "output": "migate-control-20261020T063718.328334798.snapshot.json\nmigate-control-20261020T083903.343243685.snapshot.json\nmigate-control-20261020T101431.205390500.snapshot.json"
-      }
-    },
-    "gate": {
-      "current": {
-        "exit_code": 1,
-        "output": ""
-      },
-      "previous": {
-        "exit_code": 1,
-        "output": ""
-      },
-      "service": {
-        "exit_code": 3,
-        "output": "inactive"
-      },
-      "manifest": {
-        "exit_code": 0,
-        "output": "{\"role\": \"gate\", \"version\": 1, \"current\": \"0.2.0-rc114\", \"previous\": \"0.2.0-rc113\"}"
-      },
-      "binary_sha256": {
-        "exit_code": 1,
-        "output": ""
-      },
-      "latest_backup_snapshots": {
-        "exit_code": 0,
-        "output": "migate-gate-20261020T063840.830148329.snapshot.json\nmigate-gate-20261020T084007.230826144.snapshot.json\nmigate-gate-20261020T101413.055953074.snapshot.json"
-      },
-      "owned_core_services": {
-        "exit_code": 0,
-        "output": "inactive\nactive\ninactive"
-      },
-      "existing_x_ui": {
         "exit_code": 0,
         "output": "active"
       },
-      "spare_port": {
+      "manifest": {
         "exit_code": 0,
-        "output": ""
+        "output": "{\"role\": \"control\", \"version\": 1, \"current\": \"0.1.4\", \"previous\": \"0.1.3\"}"
+      },
+      "binary_sha256": {
+        "exit_code": 0,
+        "output": "58fbd78d51d253d5e761e75f6746badb56b5e52be3daf51611e74f588bbdf401  /opt/migate-control/current/migate-control"
+      },
+      "latest_backup_snapshots": {
+        "exit_code": 0,
+        "output": "migate-control-20261020T163059.568288756.snapshot.json\nmigate-control-20261020T172349.785445449.snapshot.json\nmigate-control-20261020T173611.546016512.snapshot.json"
       }
+    },
+    "gate": {
+      "skipped": "operator credentials do not include this role"
     }
   },
   "application_version": null,

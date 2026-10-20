@@ -1,11 +1,17 @@
 {
-  "run_id": "001cc3568b874480b3eaec506c003fe2",
-  "label": "rc114-b1-pools-tools-retest",
-  "started_at": "2026-10-20T08:48:14Z",
-  "finished_at": "2026-10-20T08:49:47Z",
-  "exit_code": 1,
-  "cleanup_verified": false,
-  "scope": "outbound-pool",
-  "impact": "business",
-  "result": "failed"
+  "run_id": "b234f8d3bbd843ac93ec068a2dd5709b",
+  "label": "user-requested-uninstall",
+  "started_at": "2026-10-20T10:14:07Z",
+  "finished_at": "2026-10-20T10:14:36Z",
+  "exit_code": 0,
+  "cleanup_verified": true,
+  "scope": "none",
+  "impact": "lifecycle",
+  "result": "passed",
+  "server_versions": {
+    "control": null,
+    "gate": null
+  },
+  "version": null,
+  "observed_at": "2026-10-20T10:14:36Z"
 }

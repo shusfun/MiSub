@@ -1,60 +1,60 @@
 {
-  "date": "2026-10-20T08:46:41Z",
+  "date": "2026-10-20T10:14:36Z",
   "servers": {
     "control": {
       "current": {
-        "exit_code": 0,
-        "output": "releases/0.2.0-rc114"
+        "exit_code": 1,
+        "output": ""
       },
       "previous": {
-        "exit_code": 0,
-        "output": "releases/0.2.0-rc113"
+        "exit_code": 1,
+        "output": ""
       },
       "service": {
-        "exit_code": 0,
-        "output": "active"
+        "exit_code": 4,
+        "output": "inactive"
       },
       "manifest": {
         "exit_code": 0,
         "output": "{\"role\": \"control\", \"version\": 1, \"current\": \"0.2.0-rc114\", \"previous\": \"0.2.0-rc113\"}"
       },
       "binary_sha256": {
-        "exit_code": 0,
-        "output": "4dee38fac8ab154f4ac046fd212f4916df6b90ad5e611b4d9c0b2aaa33d21978  /opt/migate-control/current/migate-control"
+        "exit_code": 1,
+        "output": ""
       },
       "latest_backup_snapshots": {
         "exit_code": 0,
-        "output": "migate-control-20261020T021232.240043801.snapshot.json\nmigate-control-20261020T063718.328334798.snapshot.json\nmigate-control-20261020T083903.343243685.snapshot.json"
+        "output": "migate-control-20261020T063718.328334798.snapshot.json\nmigate-control-20261020T083903.343243685.snapshot.json\nmigate-control-20261020T101431.205390500.snapshot.json"
       }
     },
     "gate": {
       "current": {
-        "exit_code": 0,
-        "output": "releases/0.2.0-rc114"
+        "exit_code": 1,
+        "output": ""
       },
       "previous": {
-        "exit_code": 0,
-        "output": "releases/0.2.0-rc113"
+        "exit_code": 1,
+        "output": ""
       },
       "service": {
-        "exit_code": 0,
-        "output": "active"
+        "exit_code": 3,
+        "output": "inactive"
       },
       "manifest": {
         "exit_code": 0,
         "output": "{\"role\": \"gate\", \"version\": 1, \"current\": \"0.2.0-rc114\", \"previous\": \"0.2.0-rc113\"}"
       },
       "binary_sha256": {
-        "exit_code": 0,
-        "output": "f529af1c105825309f0b3e3371b832e729426952a0ea64ce510e3297521ec75d  /opt/migate-gate/current/migate-gate"
+        "exit_code": 1,
+        "output": ""
       },
       "latest_backup_snapshots": {
         "exit_code": 0,
-        "output": "migate-gate-20261020T012749.715077399.snapshot.json\nmigate-gate-20261020T063840.830148329.snapshot.json\nmigate-gate-20261020T084007.230826144.snapshot.json"
+        "output": "migate-gate-20261020T063840.830148329.snapshot.json\nmigate-gate-20261020T084007.230826144.snapshot.json\nmigate-gate-20261020T101413.055953074.snapshot.json"
       },
       "owned_core_services": {
         "exit_code": 0,
-        "output": "active\nactive\nactive"
+        "output": "inactive\nactive\ninactive"
       },
       "existing_x_ui": {
         "exit_code": 0,
@@ -66,5 +66,6 @@
       }
     }
   },
-  "application_version": "0.2.0-rc114"
+  "application_version": null,
+  "application_observation": "unavailable"
 }

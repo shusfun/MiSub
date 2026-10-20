@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19T05:09:59.728Z",
+  "target": "disposable local control binary + dedicated PG18/Redis8 containers",
+  "checks": [
+    "actual credential verification refuses invalid token before database step",
+    "actual PostgreSQL bad-password rejection then corrected connection",
+    "actual Redis bad-password rejection then corrected ACL connection",
+    "administrator password mismatch refusal; actual UI install and new-admin login; registration closed and initialization locked"
+  ],
+  "visual": "Human reviewed four steps at 1440/1280/768/390. Progress, mobile grid, labels and action areas fit. Initial raw SSL label found and corrected; actual rerun validates translated label. Sensitive input fields masked.",
+  "production": "Production initialization state not modified"
+}

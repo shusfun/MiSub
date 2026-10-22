@@ -1,17 +1,11 @@
 {
-  "run_id": "b234f8d3bbd843ac93ec068a2dd5709b",
-  "label": "user-requested-uninstall",
-  "started_at": "2026-10-20T10:14:07Z",
-  "finished_at": "2026-10-20T10:14:36Z",
+  "run_id": "1b29c4c45b37423a989956241501a808",
+  "label": "apply-v018-mirror",
+  "started_at": "2026-10-21T11:27:24Z",
+  "finished_at": "2026-10-21T11:27:45Z",
   "exit_code": 0,
   "cleanup_verified": true,
   "scope": "none",
   "impact": "lifecycle",
-  "result": "passed",
-  "server_versions": {
-    "control": null,
-    "gate": null
-  },
-  "version": null,
-  "observed_at": "2026-10-20T10:14:36Z"
+  "result": "passed"
 }
